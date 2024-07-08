@@ -9,6 +9,7 @@ import CountryProfile from './components/countryprofile.jsx';
 import CountryContainer from './components/countrycontainer.jsx';
 import ContinentProfile from './components/continentprofile.jsx';
 import Errorpage from './components/errorpage.jsx';
+import Border from './components/borders.jsx';
 
 const router =  createBrowserRouter([
 {
@@ -31,6 +32,10 @@ const router =  createBrowserRouter([
 {
   path:"/App",
   element:<App/>
+},
+{
+  path:"/border",
+  element:<Border/>
 },
 ])
 

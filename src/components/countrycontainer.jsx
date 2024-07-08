@@ -27,7 +27,7 @@ const CountryContainer = () => {
                     {
                         country.map((prod, index) => {
                             return (
-                                <div key={index}>
+                                <div className="col-md-4 mb-3" key={index}>
                                     <Country country={prod} />
                                 </div>
                             )
